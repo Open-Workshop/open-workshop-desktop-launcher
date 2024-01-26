@@ -58,7 +58,6 @@ header div.closeButton:hover {
 
 .Sidebar {
     user-select: none;
-    pointer-events: none;
     background-color: #2D3250;
     width: 47px;
     height: 100vh;
@@ -72,7 +71,24 @@ header div.closeButton:hover {
 }
 
 .SidebarButtons {
+    height:calc(100% - 25px);
     display: flex;
     flex-direction:column;
     justify-content: space-between;
+}
+
+.side-a-buttons {
+    margin-left: 1px;
+}
+
+.side-select:hover {
+    filter: contrast(75%);
+}
+
+.side-select:active {
+    filter:drop-shadow(2px 2px 2px gray);
+}
+
+.side-b-buttons {
+    margin-left: 3px;
 }

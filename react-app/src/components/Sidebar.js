@@ -4,20 +4,20 @@ export default function Sidebar() {
   return (
     <div className='Sidebar'>
         <div className='SidebarButtons'>
-          <div>
+          <div className='side-a-buttons'>
             <div>
-                <img src='src/img/game.svg' alt=''/>
+                <img className='side-select' src='src/img/game.svg' alt='' draggable="false"/>
             </div>
             <div>
-                <img src='src/img/mods.svg' alt=''/>
+                <img className='side-select' src='src/img/mods.svg' alt='' draggable="false"/>
             </div>
             <div>
-                <img src='src/img/modpack.svg' alt=''/>
+                <img className='side-select' src='src/img/modpack.svg' alt='' draggable="false"/>
             </div>
           </div>
           <div>
-            <div>
-                <img src='src/img/settings.svg' alt=''/>
+            <div className='side-b-buttons'>
+                <img src='src/img/settings.svg' alt='' draggable="false"/>
             </div>
           </div>
         </div>

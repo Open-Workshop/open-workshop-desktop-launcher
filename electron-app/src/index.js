@@ -19,7 +19,11 @@ const createWindow = () => {
   });
   mainWindow.setMenuBarVisibility(false);
 
+  // DEV OPTION
   mainWindow.loadURL('http://localhost:3000');
+
+  // PROD OPTION
+  //mainWindow.loadFile(path.join(__dirname, "index.html"));
 };
 
 app.on('ready', createWindow);

@@ -1,8 +1,8 @@
 {
-  "name": "electron-app",
-  "productName": "electron-app",
+  "name": "VoxelEngine Launcher",
+  "productName": "VoxelEngine Launcher",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "VoxelEngine Launcher",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
